@@ -1,0 +1,37 @@
+{
+	"name": "Min",
+	"id": 1,
+	"isphp": true,
+	"skill": [{
+			"php": "study"
+		},
+		{
+			"javascript": [
+				"function",
+				"array",
+				"object"
+			]
+		},
+		{
+			"vue.js": "so terrible"
+		},
+		{
+			"thinkphp": "study"
+		},
+		"github"
+	],
+	"interests": [{
+		"game": [
+			"chicken",
+			"lol",
+			"剑三"
+		],
+		"exeicise": [{
+				"running": "park",
+				"playing": "basketball"
+			},
+			"swing",
+			"listener"
+		]
+	}]
+}

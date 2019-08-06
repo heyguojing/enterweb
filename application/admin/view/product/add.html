@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>添加</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="__ADMIN__/css/font.css">
+    <link rel="stylesheet" href="__ADMIN__/css/xadmin.css">
+    <script type="text/javascript" src="__ADMIN__/js/jquery.min.js"></script>
+    <script type="text/javascript" src="__ADMIN__/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="__ADMIN__/js/xadmin.js"></script>
+    <script type="text/javascript" src="__ADMIN__/js/wangEditor.js"></script>
+</head>
+
+<body>
+    <div class="x-body">
+        <form class="layui-form">
+            <div class="layui-form-item">
+                <label for="username" class="layui-form-label">
+                    <span class="x-red">*</span>产品标题
+                </label>
+                <div class="layui-input-inline">
+                    <input type="text" id="title" name="title" required="" lay-verify="required" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label for="sort" class="layui-form-label">
+                    <span class="x-red">*</span>产品分类
+                </label>
+                <div class="layui-input-inline">
+                    <select id="sort" name="sort" class="valid">
+                        {volist name="sort_title" id="show"}
+                        <option value="{$show.id}">{$show.title}</option>
+                        {/volist}
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label for="desc" class="layui-form-label">
+                    <span class="x-red">*</span>简介
+                </label>
+
+                <div class="layui-input-inline">
+                    <textarea placeholder="请输入内容" id="desc" name="desc" class="layui-textarea"></textarea>
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <label for="content" class="layui-form-label">
+                    内容
+                </label>
+                <div class="layui-input-block" id="editor">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label for="onces" class="layui-form-label">
+                    <span class="x-red">*</span>单次购买
+                </label>
+                <div class="layui-input-inline">
+                    <input type="text" id="once1" name="once1" required="" lay-verify="required" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label for="permanent" class="layui-form-label">
+                    <span class="x-red">*</span>永久授权
+                </label>
+                <div class="layui-input-inline">
+                    <input type="text" id="over_night" name="over_night" required="" lay-verify="required" autocomplete="off" class="layui-input">
+                </div>
+            </div>                        
+            <div class="layui-form-item">
+                <label for="L_repass" class="layui-form-label">
+                </label>
+                <button class="layui-btn" lay-filter="add" lay-submit="">
+                    添加
+                </button>
+            </div>
+        </form>
+    </div>
+    <script>
+        layui.use(['form', 'layer'], function () {
+            $ = layui.jquery;
+            var form = layui.form
+                , layer = layui.layer;
+
+            //配置wangEditor富文本编辑器
+            ////将要用到的对象添加到全局
+            var E = window.wangEditor
+
+            //生成editor对象
+            var editor = new E('#editor')
+
+            //设置图片上传的控件名称:类似于input的name属性,供接口获取图片信息使用
+            editor.customConfig.uploadFileName = 'img'
+
+            //设置服务上的图片上传处理接口脚本
+            editor.customConfig.uploadImgServer = '{:url(\'Product/upload\')}'
+
+            //创建出富文件编辑器
+            editor.create()
+
+            //自定义验证规则
+            form.verify({
+                nikename: function (value) {
+                    if (value.length < 5) {
+                        return '至少得5个字符啊';
+                    }
+                }
+            });
+
+            //监听提交
+            form.on('submit(add)', function (data) {
+                console.log(data);
+                //发异步，把数据提交给php
+                $.ajax({
+                    type: 'post',
+                    url: '{:url(\'Product/DoAdd\')}',
+                    dataType: 'json',
+                    data: {
+                        'title': $('#title').val(),
+                        'sort': $('#sort').val(),
+                        'desc': $('#desc').val(),
+                        'content': editor.txt.html(),
+                        'once':$('#once1').val(),
+                        'over_night':$('#over_night').val()
+                    },
+                    success: function (data) {
+                        if (data.res == 1) {
+                            layer.alert(data.msg, { icon: 6 }, function () {
+                                // 获得frame索引
+                                var index = parent.layer.getFrameIndex(window.name);
+                                //关闭当前frame
+                                parent.layer.close(index);
+                                parent.window.location.reload();
+                            });
+                        } else {
+                            layer.alert(data.msg, { icon: 5 }, function () {
+                                // 关闭当前最小弹窗
+                                var index = layer.open();
+                                layer.close(index);
+                                // parent.location.reload();
+                            });
+                        }
+                    }
+                })
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>

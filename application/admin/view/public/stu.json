@@ -1,0 +1,48 @@
+{
+    "school": "成都外国语学校",
+    "majior": [{
+            "id": 2,
+            "计算机": {
+                "计算机科学与技术": "导员",
+                "微电子技术": 2014
+            }
+        },
+        {
+            "id": 5,
+            "经济与管理系": {
+                "社会经济与管理": 2018,
+                "城市规划": "city"
+            }
+        }
+    ],
+    "localtion": "四川省成都市",
+    "environment": [{
+            "name": "pool",
+            "special": "the best local fish!"
+        },
+        {
+            "name": "road",
+            "special": "lovers always walking！"
+        },
+        {
+            "name": "Library",
+            "special": "Most students to study",
+            "Type of Books": [
+                "academic",
+                "Love",
+                "Science",
+                "Biography",
+                "Novel",
+                "Kung fu novels"
+            ],
+            "location": [{
+                "baidumap": "成都"
+            }]
+        }
+    ],
+    "other":[
+        "car",
+        "foot",
+        "vagetables"
+    ]
+}

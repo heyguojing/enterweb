@@ -1,0 +1,74 @@
+                                                    企业站点快速开发
+                                                    
+1.src='{:url(\'Index/index\')}'   url写法(控制器/方法)
+
+2.一个汉字和一个英文字母占的长度是一样的 mysql里面
+
+3.href="javascript:;"就是去掉a标签的默认行为，跟href="javascript:void(0)"是一样的  eg:href="javascript:alert("弹出");"
+
+4.  刷新父级别页面  parent.window.location.reload();
+    刷新当前页面    location.reload();
+
+5.  layUI弹出框定时关闭
+    layer.alert('登录失败！请输入正确账号或密码', {icon: 6,time:3000});   
+
+6.打印print_r也要算数据的。破坏了json数据。    
+
+7.git pull报错提示：Pull is not possible because you have unmerged files.
+    1.将本地的冲突文件冲掉，不仅需要reset到MERGE-HEAD或者HEAD,还需要--hard。没有后面的hard，不会冲掉本地工作区。只会冲掉stage区。
+    git reset --hard FETCH_HEAD
+    2.git pull就会成功。
+
+8.  <?php
+        $str = "This is some &lt;b&gt;bold&lt;/b&gt; text.";
+        echo htmlspecialchars_decode($str);//把html实体($lt,$gt)转化为字符(< >);
+    ?>   
+    
+9.  $git archive --format=zip --output master.zip master 
+    打包master分支的所有文件
+    
+9.1 配置.gitignore只对那些没有添加到版本控制系统的文件生效(未Tracked的文件)！所以先清除add .跟踪了的
+    git rm -r --cached . # 清除版本控制标记，.代表所有文件，也可指定具体文件
+
+9.2 git出现:fatal: refusing to merge unrelated histories的解决办法
+    执行下面的命令:git pull origin master --allow-unrelated-histories。可以提交成功。
+
+10. str_replace(find,replace,string,count);字符串替换
+    $str = "hello world!";
+    str_replace("world","Peter",$str,$count);
+
+11. array_merge(array1,array2,array3) 把两个数组合并为一个数组
+
+12. M实例化参数是数据库的表名。
+    D实例化的是你自己在Model文件夹下面建立的模型文件。
+    D就是在你没有定义模型的时候，系统自动帮你定义一个模型，这样你才进行简单的数据输入或者输出。
+    每一个Action文件都应该对应Model文件的，如果你定义了Model的话
+
+    M方法 和 D方法 都可以在模型类文件不存在的情况下直接使用的，但显然 M方法 更高效；但要使用模型类里面业务逻辑，就必须使用 D方法。
+    业务逻辑写在Model里面，就需要使用D方法
+
+13. echo json_encode(array("status"=>1,'info'=>"ssssss"));以json编码输出
+
+14. Nginx 是一个高性能的 Web 和反向代理服务器, 它具有有很多非常优越的特性
+    作为web服务器：nginx相比Apache，使用更少的资源，支持更多的并发连接，
+    作为负载均衡服务器：nginx支持php，也支持http代理服务器对外进行服务，CPU占用较低
+    作为邮件代理服务器：nginx同时也是一个非常优秀的邮件代理服务器
+
+15. Redis是什么？
+    Redis是一个开源的底层使用C语言编写的key-value存储数据库。可用于缓存、事件发布订阅、高速队列等场景。
+    而且支持丰富的数据类型：string(字符串)、hash(哈希)、list(列表)、set(无序集合)、zset(sorted set：有序集合)
+
+16. composer下载版本命令
+    composer require topthink/think-captcha=2.*
+
+17. input[name=username]:focus {border: 1px solid #DCDEE0 !important;}
+
+18. $(".swiper-slide a[href='javascript:;']").click(function(){ });
+
+19. nslookup  cmd查看网址对应ip
+
+20. 字 => 数组 explode(" ",$str,num);
+
+21. 安全狗、云锁、D盾 winserver 防护
+
+22. css属性选择器  p[class="text-word"]
