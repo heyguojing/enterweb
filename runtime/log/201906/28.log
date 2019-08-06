@@ -1,0 +1,3921 @@
+---------------------------------------------------------------
+[2019-06-28T16:37:43+08:00] 127.0.0.1 GET www.enterweb.com/admin.php
+[运行时间：0.455026s] [吞吐率：2.20req/s] [内存消耗：2,516.74kb] [文件加载：69]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:37:46+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：2,511.75kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:37:46+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.058003s] [吞吐率：17.24req/s] [内存消耗：1,871.94kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:37:50+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:37:51+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:39:45+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.053003s] [吞吐率：18.87req/s] [内存消耗：2,692.41kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:39:45+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:39:51+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:39:51+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.040002s] [吞吐率：25.00req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:39:52+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:39:52+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.022001s] [吞吐率：45.45req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:39:53+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:39:53+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:39:53+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.026002s] [吞吐率：38.46req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:39:53+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:40:05+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：2,692.41kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:40:06+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:40:06+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:40:06+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.031001s] [吞吐率：32.26req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:40:08+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.026001s] [吞吐率：38.46req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:40:08+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:40:48+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：2,692.41kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:40:48+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:40:53+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:40:53+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.043003s] [吞吐率：23.25req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:40:58+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.026001s] [吞吐率：38.46req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:40:58+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:41:03+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：2,692.41kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:41:03+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:43:50+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：2,700.41kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:43:50+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,872.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:44:00+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.217013s] [吞吐率：4.61req/s] [内存消耗：4,169.09kb] [文件加载：77]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '45',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '12345677',
+  'captcha' => 'nq8w',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043002s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.041003s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.008000s ]
+---------------------------------------------------------------
+[2019-06-28T16:44:00+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.7401562166575102
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：1,872.48kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.7401562166575102',
+)
+---------------------------------------------------------------
+[2019-06-28T16:44:13+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.038003s] [吞吐率：26.31req/s] [内存消耗：4,247.48kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'yqrr',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[2019-06-28T16:44:13+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.15089808838748664
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：1,872.48kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.15089808838748664',
+)
+---------------------------------------------------------------
+[2019-06-28T16:44:20+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：4,247.48kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'as2g',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-28T16:44:20+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.47613452478275975
+[运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：1,872.48kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.47613452478275975',
+)
+---------------------------------------------------------------
+[2019-06-28T16:44:26+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：4,247.27kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'af6l',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-28T16:44:27+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/index/index.html
+[运行时间：0.045002s] [吞吐率：22.22req/s] [内存消耗：2,514.24kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\index\index.html [ array (
+  0 => 'username',
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:44:27+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/index/welcome.html
+[运行时间：0.061003s] [吞吐率：16.39req/s] [内存消耗：2,431.09kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\index\welcome.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:44:54+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.023001s] [吞吐率：43.48req/s] [内存消耗：1,872.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:44:56+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：2,511.83kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:44:56+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.026001s] [吞吐率：38.46req/s] [内存消耗：1,872.63kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:45:06+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/news/inex
+[运行时间：0.072004s] [吞吐率：13.89req/s] [内存消耗：2,505.70kb] [文件加载：69]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:45:10+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/news/index
+[运行时间：0.160009s] [吞吐率：6.25req/s] [内存消耗：4,456.15kb] [文件加载：84]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\news\index.html [ array (
+  0 => 'pagedata',
+  1 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `news` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news_pic` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 6 LIMIT 1 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 14 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 15 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 20 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `picurl` FROM `news_pic` WHERE  `news_id` = 23 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-28T16:45:40+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/index/index.html
+[运行时间：0.056003s] [吞吐率：17.86req/s] [内存消耗：2,514.55kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\index\index.html [ array (
+  0 => 'username',
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:45:40+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/index/welcome.html
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：2,431.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\index\welcome.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:45:43+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/logout.html
+[运行时间：0.039003s] [吞吐率：25.64req/s] [内存消耗：2,530.19kb] [文件加载：67]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:45:43+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：2,511.77kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:45:44+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,872.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:45:51+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.028001s] [吞吐率：35.71req/s] [内存消耗：2,512.34kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:45:51+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.023002s] [吞吐率：43.47req/s] [内存消耗：1,872.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:45:54+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：2,512.34kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:45:54+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,872.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:45:57+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.026002s] [吞吐率：38.46req/s] [内存消耗：2,512.34kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:45:57+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.029001s] [吞吐率：34.48req/s] [内存消耗：1,872.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:48:56+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.040003s] [吞吐率：25.00req/s] [内存消耗：2,701.00kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:48:56+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.045003s] [吞吐率：22.22req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:48:58+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:48:58+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:48:59+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:48:59+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:49:04+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:49:04+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:51:52+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:51:52+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:16+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：2,701.00kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:16+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:17+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.028001s] [吞吐率：35.71req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:17+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.023001s] [吞吐率：43.48req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:17+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.046002s] [吞吐率：21.74req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:17+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:17+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:17+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:18+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:18+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:18+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.030001s] [吞吐率：33.33req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:18+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.025002s] [吞吐率：40.00req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:19+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:19+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.023002s] [吞吐率：43.47req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:20+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:20+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.023002s] [吞吐率：43.47req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:22+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:22+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:34+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：2,701.00kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:34+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.038003s] [吞吐率：26.31req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:56+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：2,701.00kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:56+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:57+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:57+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.024001s] [吞吐率：41.67req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:52:58+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:52:58+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:53:41+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：2,701.00kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:53:41+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:54:09+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：2,701.00kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:54:09+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:54:12+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:54:12+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.022001s] [吞吐率：45.45req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:54:29+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：2,701.00kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:54:29+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:54:29+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:54:29+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.040003s] [吞吐率：25.00req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:54:30+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:54:30+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.026001s] [吞吐率：38.46req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:54:31+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:54:32+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.024001s] [吞吐率：41.67req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:54:56+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：2,701.00kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:54:56+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.024001s] [吞吐率：41.67req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:03+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:03+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:10+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:10+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:30+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:30+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.029001s] [吞吐率：34.48req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:32+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:33+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:34+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:34+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:35+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:35+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.023001s] [吞吐率：43.48req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:37+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:37+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.028001s] [吞吐率：35.71req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:48+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：2,701.00kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:48+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.024001s] [吞吐率：41.67req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:48+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：2,512.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:48+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,872.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:51+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.026001s] [吞吐率：38.46req/s] [内存消耗：2,512.34kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:51+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.025001s] [吞吐率：40.00req/s] [内存消耗：1,872.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:55:55+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.026001s] [吞吐率：38.46req/s] [内存消耗：2,512.34kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:55:56+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,872.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:56:05+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.037003s] [吞吐率：27.02req/s] [内存消耗：4,168.70kb] [文件加载：77]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'sfd',
+  'password' => 'dsf',
+  'captcha' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'sfd' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-28T16:56:05+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.23792732923153026
+[运行时间：0.019001s] [吞吐率：52.63req/s] [内存消耗：1,872.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.23792732923153026',
+)
+---------------------------------------------------------------
+[2019-06-28T16:56:10+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.046003s] [吞吐率：21.74req/s] [内存消耗：4,168.70kb] [文件加载：77]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'sfd',
+  'password' => 'dsf',
+  'captcha' => 'sdf',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'sfd' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-28T16:56:10+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.4539356799714567
+[运行时间：0.019001s] [吞吐率：52.63req/s] [内存消耗：1,872.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.4539356799714567',
+)
+---------------------------------------------------------------
+[2019-06-28T16:56:16+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.051003s] [吞吐率：19.61req/s] [内存消耗：4,169.05kb] [文件加载：77]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'dsf',
+  'captcha' => 'sdf',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-28T16:56:16+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.1514492547588191
+[运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：1,872.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.1514492547588191',
+)
+---------------------------------------------------------------
+[2019-06-28T16:56:20+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.037003s] [吞吐率：27.02req/s] [内存消耗：4,247.59kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'sdf',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-28T16:56:20+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.40984692895258346
+[运行时间：0.019001s] [吞吐率：52.63req/s] [内存消耗：1,872.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.40984692895258346',
+)
+---------------------------------------------------------------
+[2019-06-28T16:56:31+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.188840567354698
+[运行时间：0.020002s] [吞吐率：49.99req/s] [内存消耗：1,872.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.188840567354698',
+)
+---------------------------------------------------------------
+[2019-06-28T16:56:38+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：4,247.34kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => '7kuo',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2019-06-28T16:56:40+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/index/index.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：2,514.24kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\index\index.html [ array (
+  0 => 'username',
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:56:40+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/index/welcome.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：2,431.09kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\index\welcome.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:57:01+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.025002s] [吞吐率：40.00req/s] [内存消耗：1,872.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:57:02+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：2,512.34kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-06-28T16:57:02+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,872.63kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-06-28T16:57:11+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.24302993539112938
+[运行时间：0.022002s] [吞吐率：45.45req/s] [内存消耗：1,873.97kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.24302993539112938',
+)
+---------------------------------------------------------------
+[2019-06-28T16:57:12+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.9234596801463615
+[运行时间：0.019001s] [吞吐率：52.63req/s] [内存消耗：1,873.97kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=ppt96nt2m4011lr40v0s5o6gk9',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.9234596801463615',
+)

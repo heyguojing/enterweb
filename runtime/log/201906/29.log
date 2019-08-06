@@ -1,0 +1,25 @@
+---------------------------------------------------------------
+[2019-06-29T17:22:24+08:00] 127.0.0.1 GET www.enterweb.com/
+[运行时间：0.201614s] [吞吐率：4.96req/s] [内存消耗：3,430.59kb] [文件加载：76]
+[ info ] [ LANG ] C:\wamp\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=5942132736',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\enterweb\application\index\view\index\index.html [ array (
+  0 => 'carousel',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024361s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carousel` [ RunTime:0.010921s ]
+[ sql ] [ SQL ] SELECT * FROM `carousel` ORDER BY `id` ASC [ RunTime:0.000931s ]

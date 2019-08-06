@@ -1,0 +1,48 @@
+---------------------------------------------------------------
+[2019-07-14T10:14:29+08:00] 127.0.0.1 GET www.enterweb.com/
+[运行时间：0.504029s] [吞吐率：1.98req/s] [内存消耗：4,342.03kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\index\view\index\index.html [ array (
+  0 => 'carousel',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051003s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carousel` [ RunTime:0.041003s ]
+[ sql ] [ SQL ] SELECT * FROM `carousel` ORDER BY `id` ASC [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[2019-07-14T10:14:32+08:00] 127.0.0.1 GET www.enterweb.com/index/index/contact.html
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：2,510.59kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.enterweb.com/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\index\view\index\contact.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-07-14T10:14:35+08:00] 127.0.0.1 GET www.enterweb.com/static/index/css/bootstrap.min.css.map
+[运行时间：0.077004s] [吞吐率：12.99req/s] [内存消耗：1,887.61kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php

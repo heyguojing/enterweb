@@ -1,0 +1,260 @@
+---------------------------------------------------------------
+[2019-07-03T09:09:53+08:00] 127.0.0.1 GET www.enterweb.com/
+[运行时间：0.773044s] [吞吐率：1.29req/s] [内存消耗：4,342.75kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\index\view\index\index.html [ array (
+  0 => 'carousel',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062003s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carousel` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT * FROM `carousel` ORDER BY `id` ASC [ RunTime:0.009001s ]
+---------------------------------------------------------------
+[2019-07-03T09:10:03+08:00] 127.0.0.1 GET www.enterweb.com/admin.php
+[运行时间：0.113007s] [吞吐率：8.85req/s] [内存消耗：2,516.04kb] [文件加载：69]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[2019-07-03T09:10:07+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/login/login.html
+[运行时间：0.063003s] [吞吐率：15.87req/s] [内存消耗：2,511.75kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=hhkm4igakrf060i22ngvo67hgk',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-07-03T09:10:07+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html
+[运行时间：0.076004s] [吞吐率：13.16req/s] [内存消耗：1,871.94kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=hhkm4igakrf060i22ngvo67hgk',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-03T09:10:17+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.122007s] [吞吐率：8.20req/s] [内存消耗：4,247.48kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=hhkm4igakrf060i22ngvo67hgk',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'zo7m',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.055004s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[2019-07-03T09:10:17+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/captcha.html?rand=0.17157868822937883
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,872.48kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=hhkm4igakrf060i22ngvo67hgk',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.17157868822937883',
+)
+---------------------------------------------------------------
+[2019-07-03T09:10:24+08:00] 127.0.0.1 POST www.enterweb.com/admin.php/login/dologin.html
+[运行时间：0.050002s] [吞吐率：20.00req/s] [内存消耗：4,247.27kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.enterweb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=hhkm4igakrf060i22ngvo67hgk',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'i62u',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-07-03T09:10:26+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/index/index.html
+[运行时间：0.050003s] [吞吐率：20.00req/s] [内存消耗：2,514.24kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=hhkm4igakrf060i22ngvo67hgk',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\index\index.html [ array (
+  0 => 'username',
+) ]
+---------------------------------------------------------------
+[2019-07-03T09:10:26+08:00] 127.0.0.1 GET www.enterweb.com/admin.php/index/welcome.html
+[运行时间：0.064004s] [吞吐率：15.62req/s] [内存消耗：2,431.09kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.enterweb.com/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=hhkm4igakrf060i22ngvo67hgk',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\admin\view\index\welcome.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-07-03T10:34:39+08:00] 127.0.0.1 GET www.enterweb.com/
+[运行时间：0.083004s] [吞吐率：12.05req/s] [内存消耗：4,343.07kb] [文件加载：80]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625; PHPSESSID=hhkm4igakrf060i22ngvo67hgk',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\index\view\index\index.html [ array (
+  0 => 'carousel',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carousel` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `carousel` ORDER BY `id` ASC [ RunTime:0.000000s ]

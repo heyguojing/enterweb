@@ -1,0 +1,59 @@
+---------------------------------------------------------------
+[2019-06-03T14:28:29+08:00] 127.0.0.1 GET www.enterweb.com/
+[运行时间：0.758043s] [吞吐率：1.32req/s] [内存消耗：3,568.45kb] [文件加载：67]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.enterweb.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=3287991296; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1556955667,1556958658,1557021028,1557134625',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\enterweb\application\index\view\index\index.html [ array (
+  0 => 'carousel',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041002s ] mysql:host=127.0.0.1;dbname=enterweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `carousel` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `carousel` ORDER BY `id` ASC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2019-06-03T14:28:29+08:00] 127.0.0.1 GET www.enterweb.com/static/index/barfiller.css
+[运行时间：0.148008s] [吞吐率：6.76req/s] [内存消耗：1,593.99kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-06-03T14:28:30+08:00] 127.0.0.1 GET www.enterweb.com/static/index/css/bootstrap.min.css.map
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,594.00kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-06-03T14:28:30+08:00] 127.0.0.1 GET www.enterweb.com/uploads/carousel/20190602%EF%BF%BDdb43639ac2e731a2d2c89e65e4.jpg
+[运行时间：0.040002s] [吞吐率：25.00req/s] [内存消耗：1,594.03kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-06-03T14:28:30+08:00] 127.0.0.1 GET www.enterweb.com/uploads/carousel/20190602%EF%BF%BD0c969f417c5e89fd78ada9d545.jpg
+[运行时间：0.040002s] [吞吐率：25.00req/s] [内存消耗：1,594.03kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-06-03T14:28:30+08:00] 127.0.0.1 GET www.enterweb.com/static/index/js/vendor/popper.min.js.map
+[运行时间：0.039002s] [吞吐率：25.64req/s] [内存消耗：1,594.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-06-03T14:28:34+08:00] 127.0.0.1 GET www.enterweb.com/static/index/barfiller.css
+[运行时间：0.043002s] [吞吐率：23.25req/s] [内存消耗：1,593.99kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-06-03T14:28:34+08:00] 127.0.0.1 GET www.enterweb.com/static/index/js/vendor/popper.min.js.map
+[运行时间：0.032001s] [吞吐率：31.25req/s] [内存消耗：1,594.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-06-03T14:28:34+08:00] 127.0.0.1 GET www.enterweb.com/static/index/css/bootstrap.min.css.map
+[运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：1,594.00kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\enterweb\thinkphp\lang\zh-cn.php
