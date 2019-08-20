@@ -108,4 +108,8 @@ class News  extends Common
             return ['res' => 0,'msg' => '删除失败'];
         }
     }
+    public function test()
+    {
+        return $this->view->fetch();
+    }
 }

@@ -15,9 +15,9 @@
 
 return [
     // 应用名称
-    'app_name'               => '',
+    'app_name'               => '网站开发',
     // 应用地址
-    'app_host'               => '',
+    'app_host'               => 'https://www.phpdecode.cn',
     // 应用调试模式
     'app_debug'              => true,
     // 应用Trace

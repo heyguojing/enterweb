@@ -1,4 +1,4 @@
-<?php /*a:3:{s:62:"D:\wamp64\www\enterweb\application\admin\view\index\index.html";i:1559093563;s:62:"D:\wamp64\www\enterweb\application\admin\view\public\head.html";i:1559267158;s:62:"D:\wamp64\www\enterweb\application\admin\view\public\left.html";i:1559614993;}*/ ?>
+<?php /*a:3:{s:62:"D:\wamp64\www\enterweb\application\admin\view\index\index.html";i:1559093563;s:62:"D:\wamp64\www\enterweb\application\admin\view\public\head.html";i:1559267158;s:62:"D:\wamp64\www\enterweb\application\admin\view\public\left.html";i:1564716087;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -97,7 +97,7 @@
                                 <i class="iconfont">&#xe6a7;</i>
                                 <cite>产品列表图</cite>
                             </a>
-                        </li>                        
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -133,13 +133,19 @@
                                 <i class="iconfont">&#xe6a7;</i>
                                 <cite>首页轮播图</cite>
                             </a>
-                        </li>         
+                        </li>
                         <li>
                             <a _href="<?php echo url('System/contact'); ?>">
                                 <i class="iconfont">&#xe6a7;</i>
                                 <cite>表单(Contact)</cite>
                             </a>
-                        </li>                                          
+                        </li>
+                        <li>
+                            <a _href="<?php echo url('System/creatCard'); ?>">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>微信接口调用测试</cite>
+                            </a>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -147,6 +153,24 @@
     </div>
     <!-- <div class="x-slide_left"></div> -->
     <!-- 左侧菜单结束 -->
+    <script>
+
+        jQuery(".slideGroup .slideBox").slide({
+            mainCell: "ul",
+            vis: 3,
+            prevCell: ".sPrev",
+            nextCell: ".sNext",
+            effect: "leftMarquee",
+            interTime: 50,
+            autoPlay: true,
+            trigger: "click",
+            endFun: function (i, c) {
+                if (i == c) {
+                    jQuery(".slideGroup .slideBox").slide();
+                }
+            }
+        });
+    </script>
     <!-- 右侧主体开始 -->
     <div class="page-content">
         <div class="layui-tab tab" lay-filter="xbs_tab" lay-allowclose="false">
