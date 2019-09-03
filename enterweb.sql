@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : admin
+Source Server         : 127.0.0.1
 Source Server Version : 50721
 Source Host           : localhost:3306
 Source Database       : enterweb
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50721
 File Encoding         : 65001
 
-Date: 2019-06-04 14:52:22
+Date: 2019-09-03 17:50:17
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -27,13 +27,13 @@ CREATE TABLE `carousel` (
   `username` varchar(50) NOT NULL,
   `time` int(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of carousel
 -- ----------------------------
-INSERT INTO `carousel` VALUES ('10', '/uploads/carousel/20190602\\1abf000c969f417c5e89fd78ada9d545.jpg', '企业网站开发', '页面简洁，兼容各个平台，国内框架，layui，thinkphp，bootstrap......', 'admin', '1559442220');
-INSERT INTO `carousel` VALUES ('9', '/uploads/carousel/20190602\\806ceadb43639ac2e731a2d2c89e65e4.jpg', '企业网站开发', '页面简洁，兼容各个平台，国内框架，layui，thinkphp，bootstrap......', 'admin', '1559442187');
+INSERT INTO `carousel` VALUES ('10', '/uploads/carousel/20190602\\1abf000c969f417c5e89fd78ada9d545.jpg', '企业网站开发', '页面简洁，兼容各个平台，国内框架，layui，thinkphp，云服务器，https证书（郭靖）', 'admin', '1559442220');
+INSERT INTO `carousel` VALUES ('9', '/uploads/carousel/20190602\\806ceadb43639ac2e731a2d2c89e65e4.jpg', '企业网站开发', '页面简洁，兼容各个平台，国内框架，layui，thinkphp，云服务器，https证书（郭靖）', 'admin', '1559442187');
 
 -- ----------------------------
 -- Table structure for contact
@@ -48,7 +48,7 @@ CREATE TABLE `contact` (
   `ip` varchar(255) DEFAULT NULL,
   `time` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of contact
@@ -58,6 +58,41 @@ INSERT INTO `contact` VALUES ('2', 'test', 'test@163.com', '公司企业网站�
 INSERT INTO `contact` VALUES ('3', 'user', 'user@aliyun.com', '公司企业网站', 'layui 公司企业网站开发，后台管理系统', 'customer', '1559618377');
 INSERT INTO `contact` VALUES ('4', 'test1', 'test1@qq.com', 'test', 'ttest', 'customer', '1559618696');
 INSERT INTO `contact` VALUES ('5', 'test', 'test', 'test', 'test', 'customer', '1559618837');
+INSERT INTO `contact` VALUES ('7', 'github', 'github@github.com', 'github', 'github', 'customer', '1560219202');
+INSERT INTO `contact` VALUES ('8', '王帅', 'wang@gmail.com', '网站开发', '网站开发', 'customer', '1564646027');
+INSERT INTO `contact` VALUES ('9', '老铁', '123456789@qq.com', '网页开发', '需求', 'customer', '1564648157');
+INSERT INTO `contact` VALUES ('10', '郭靖', 'mail@aliyun.com', '111', '1111', 'customer', '1564976846');
+INSERT INTO `contact` VALUES ('11', '', '', '', '', 'customer', '1567393853');
+
+-- ----------------------------
+-- Table structure for menu
+-- ----------------------------
+DROP TABLE IF EXISTS `menu`;
+CREATE TABLE `menu` (
+  `menu_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `pid` int(10) NOT NULL DEFAULT '0' COMMENT '上级菜单id',
+  `ord` int(10) NOT NULL DEFAULT '0',
+  `title` varchar(30) NOT NULL COMMENT '菜单名称',
+  `controller` varchar(30) NOT NULL COMMENT '控制器',
+  `method` varchar(30) NOT NULL COMMENT '控制器方法',
+  `ishidden` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否隐藏，0正常，1隐藏',
+  `status` tinyint(1) NOT NULL DEFAULT '0' COMMENT '状态；“0”正常，“1”禁用',
+  PRIMARY KEY (`menu_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of menu
+-- ----------------------------
+INSERT INTO `menu` VALUES ('1', '2', '0', '首页', 'home', 'index', '0', '0');
+INSERT INTO `menu` VALUES ('2', '21', '0', '医生', 'doctor', 'index', '0', '0');
+INSERT INTO `menu` VALUES ('3', '22', '12', '首页1', 'menu', 'index', '0', '0');
+INSERT INTO `menu` VALUES ('4', '22', '12', '首页2', 'menu', 'index', '0', '0');
+INSERT INTO `menu` VALUES ('5', '22', '12', '首页3', 'menu', 'index', '0', '0');
+INSERT INTO `menu` VALUES ('6', '22', '12', '首页4', 'menu', 'save', '0', '0');
+INSERT INTO `menu` VALUES ('7', '22', '4', '菜单', 'menu', 'save', '0', '0');
+INSERT INTO `menu` VALUES ('8', '22', '5', '栏目', 'column', 'index', '0', '0');
+INSERT INTO `menu` VALUES ('9', '22', '8', '个人', 'person', 'edit', '0', '0');
+INSERT INTO `menu` VALUES ('23', '22', '123', '首页5', 'menu', 'save', '0', '0');
 
 -- ----------------------------
 -- Table structure for news
@@ -78,8 +113,8 @@ CREATE TABLE `news` (
 -- Records of news
 -- ----------------------------
 INSERT INTO `news` VALUES ('20', '《紫罗兰永恒花园》', null, '简介：某个大陆的、某个时代。大陆南北分割的战争结束了，世界走向了和平。', '<p>简介：某个大陆的、某个时代。大陆南北分割的战争结束了，世界走向了和平。在战争中作为军人的薇尔莉特•伊芙加登，怀抱着对她来说无比重要之人留下的“话语”，离开军队来到了大港口城市。踊跃的人群在排列着煤气灯的街道马路上来来往往地穿梭着。薇尔莉特在街道上找到了“代写书信”的工作。那是根据委托人的想法来组织出相应语言的工作。她直面委托人、触碰着他们内心深处的坦率感情。与此同时，薇尔莉特在记录书信时，渐渐明白那“话语”的含义。&nbsp;&nbsp;<br></p><p><img src=\"/uploads/news/20190510\\0e80a4b961ce50cc72d008d15d05e7a8.jpg\" style=\"max-width:100%;\"><br></p><p><br></p>', 'admin', '1557709747');
-INSERT INTO `news` VALUES ('8', '基本查询', '热门新闻', 'Db::table(\'think_user\')->where(\'id\',1)->find();', '<h2>基本查询</h2><p>查询单个数据使用<code>find</code>方法：</p><pre><code>// table方法必须指定完整的数据表名\nDb::table(\'think_user\')-&gt;where(\'id\',1)-&gt;find();\n</code></pre><p>最终生成的SQL语句可能是：</p><pre><code>SELECT * FROM `think_user` WHERE  `id` = 1 LIMIT 1\n</code></pre><blockquote><p>find 方法查询结果不存在，返回 null，否则返回结果数组</p></blockquote><p>如果希望在没有找到数据后抛出异常可以使用</p><pre><code>// table方法必须指定完整的数据表名\nDb::table(\'think_user\')-&gt;where(\'id\',1)-&gt;findOrFail();\n</code></pre><p>如果没有查找到数据，则会抛出一个<code>think\\db\\exception\\DataNotFoundException</code>异常。</p><p>查询多个数据（数据集）使用<code>select</code>方法：</p><p><br></p>', 'admin', '1557474174');
-INSERT INTO `news` VALUES ('6', '来新人啦！', '热门新闻', '来新人啦！来新人啦！来新人啦！', '<p><img src=\"/upload/20180702\\3fac6bc0e84bb5f8f5454edf5878836f.png\" style=\"max-width:100%;\"><br></p>', 'admin', '1530501837');
+INSERT INTO `news` VALUES ('8', '基本查询', '热门新闻', 'Db::table(\'think_user\')->where(\'id\',1)->find();', '<h2>基本查询</h2><p><span style=\"font-size: large;\">查询单个数据使用<code style=\"\">find</code>方法：</span></p><pre><code>// table方法必须指定完整的数据表名\nDb::table(\'think_user\')-&gt;where(\'id\',1)-&gt;find();\n</code></pre><p><code>最终生成的SQL语句可能是：</code></p><table border=\"0\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table><p><br></p><p><img src=\"http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/50/pcmoren_huaixiao_org.png\" alt=\"[坏笑]\" data-w-e=\"1\"><span style=\"text-decoration-line: underline;\"></span></p><pre><code>SELECT * FROM `think_user` WHERE  `id` = 1 LIMIT 1\n</code></pre><blockquote><p>find 方法查询结果不存在，返回 null，否则返回结果数组</p></blockquote><p>如果希望在没有找到数据后抛出异常可以使用</p><pre><code>// table方法必须指定完整的数据表名\nDb::table(\'think_user\')-&gt;where(\'id\',1)-&gt;findOrFail();\n</code></pre><p>如果没有查找到数据，则会抛出一个<code>think\\db\\exception\\DataNotFoundException</code>异常。</p><p>查询多个数据（数据集）使用<code>select</code>方法：</p><p><br></p>', 'admin', '1562047561');
+INSERT INTO `news` VALUES ('6', '来新人啦！', '热门新闻', '来新人啦！来新人啦！来新人啦！', '<p><br></p>', 'admin', '1562047422');
 INSERT INTO `news` VALUES ('19', '《刀剑神域》', null, '简介：【本片翻译由版权方提供】“这里是哪儿”察觉到', '<p>简介：【本片翻译由版权方提供】“这里是哪儿”察觉到的时候，桐人不知为什么陷入了庞大的幻想风格虚拟世界。登录前的记忆模糊不清，只得在周围徘徊寻找线索。之后，他同一名少年相遇了。“我的名字是尤吉欧。请多关照，桐人君。”少年是在虚拟世界的居民，即“NPC”，但是却如同人类一样“感情丰富”。在和尤吉欧加深交往的同时，桐人也在摸索着登出这个世界的方法。在桐人的脑海中，某一个记忆苏醒了。那是幼年时的桐人和尤吉欧在山野奔跑的记忆——不可能存在的记忆。在那个回忆中，有着一个金发少女的身影。她的名字，是爱丽丝，是绝对不应该忘记的、重要的名字。&nbsp;&nbsp;<br></p><p><img src=\"/uploads/news/20190510\\76cc4b677415d30ee924fb24a68c814b.jpg\" style=\"max-width:100%;\"><br></p><p><br></p>', 'admin', '1557709737');
 INSERT INTO `news` VALUES ('18', '《全职高手》', null, '简介：根据蝴蝶蓝同名电子游戏竞技小说改编，一个被战队驱逐的超级职业选手离开老东家，进入网吧自行组建战队，结识了形形色色的优秀队员，打挑战赛杀回了《荣耀》的职业联盟，并获得了最高的荣誉重回巅峰。', '<p>简介：根据蝴蝶蓝同名电子游戏竞技小说改编，一个被战队驱逐的超级职业选手离开老东家，进入网吧自行组建战队，结识了形形色色的优秀队员，打挑战赛杀回了《荣耀》的职业联盟，并获得了最高的荣誉重回巅峰。&nbsp;</p><p>&nbsp;<img src=\"/uploads/news/20190510\\272886117d72b2779ebc457b7aad2ab4.jpg\" style=\"max-width: 100%;\"><br></p><p><br></p>', 'admin', '1557481164');
 INSERT INTO `news` VALUES ('14', '《狐妖小红娘》', null, '《狐妖小红娘》是庹小新创作的连载于腾讯动漫的漫画作品。单行本由中国文史出版社、长江出版社出版。作品亦改编为同名动画、游戏。漫画主要讲述了以红娘为职业的狐妖在为前世恋...', '<p>漫画主要讲述了以红娘为职业的狐妖在为前世恋人牵红线过程当中发生的一系列有趣、神秘、感人的故事。&nbsp; 1<br></p><p><img src=\"/uploads/news/20190510\\d2523eb587afc71935b46e6cd14ce132.jpg\" style=\"max-width:100%;\"><br></p><p><br></p>', 'admin', '1557481145');
@@ -99,7 +134,7 @@ CREATE TABLE `news_pic` (
   `username` varchar(10) CHARACTER SET latin1 NOT NULL,
   `time` int(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of news_pic
@@ -110,7 +145,11 @@ INSERT INTO `news_pic` VALUES ('6', '18', '/uploads/newspic/20190519\\a7418b0a68
 INSERT INTO `news_pic` VALUES ('7', '20', '/uploads/newspic/20190521\\4b106c81d7c8503cdb65cfb34ffcae8c.jpg', 'admin', '1558418957');
 INSERT INTO `news_pic` VALUES ('8', '6', '/uploads/newspic/20190523\\e5850fa746e871b79521c07a04b5d589.jpg', 'admin', '1558542376');
 INSERT INTO `news_pic` VALUES ('9', '8', '/uploads/newspic/20190521\\4b106c81d7c8503cdb65cfb34ffcae8c.jpg', 'admin', '1558418957');
+INSERT INTO `news_pic` VALUES ('12', '6', '/uploads/newspic/20190605\\3a4cc2bb5b1f2f7cf9960500fcefe9d9.png', 'admin', '1559733881');
 INSERT INTO `news_pic` VALUES ('11', '15', '/uploads/newspic/20190521\\4b106c81d7c8503cdb65cfb34ffcae8c.jpg', 'admin', '1558268650');
+INSERT INTO `news_pic` VALUES ('13', '6', '/uploads/newspic/20190627\\d83dbede087e28ac0486ab4dba40e633.jpg', 'admin', '1561606855');
+INSERT INTO `news_pic` VALUES ('14', '6', '', 'admin', '1564650532');
+INSERT INTO `news_pic` VALUES ('15', '14', '', 'admin', '1564650567');
 
 -- ----------------------------
 -- Table structure for product
@@ -132,7 +171,7 @@ CREATE TABLE `product` (
 -- ----------------------------
 -- Records of product
 -- ----------------------------
-INSERT INTO `product` VALUES ('2', '休斯敦火箭队', '3', '詹姆斯-保罗', '<p>詹姆斯-保罗詹姆斯-保罗</p><p><img src=\"/uploads/product/20190521\\7ffa7b7741dc7430f3371a450ce4ed39.jpg\" style=\"max-width:100%;\"><br></p>', '300', '800', '1558421793', 'admin');
+INSERT INTO `product` VALUES ('2', '休斯敦火箭队', '3', '詹姆斯-保罗', '<p>詹姆斯-保罗詹姆斯-保罗&nbsp;&nbsp;<br></p>', '200', '800', '1565763481', 'admin');
 INSERT INTO `product` VALUES ('3', '勇士更强还是雄鹿更强？', '5', '勇士杜兰特，斯蒂芬-库里，格林，汤普森，库克，', '<blockquote>金州勇士队（Golden State Warriors）于1946年成立并加盟BAA（1949年加盟NBA）&nbsp;<img src=\"http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/40/pcmoren_tian_org.png\" alt=\"[舔屏]\" data-w-e=\"1\"></blockquote><p><img src=\"/uploads/product/20190521\\1e69fee974e03b21125d0be713d247b8.jpg\" style=\"max-width:100%;\"><br></p><p><br></p>', '300', '800', '1558441919', 'admin');
 
 -- ----------------------------
@@ -163,16 +202,17 @@ CREATE TABLE `sort` (
   `username` varchar(255) NOT NULL,
   `time` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of sort
 -- ----------------------------
 INSERT INTO `sort` VALUES ('3', '亮剑', 'admin', '1558885058');
-INSERT INTO `sort` VALUES ('2', '我的兄弟叫顺溜', 'admin', '1558885011');
+INSERT INTO `sort` VALUES ('2', '我的兄弟叫顺', 'admin', '1564647362');
 INSERT INTO `sort` VALUES ('4', '我李云龙不服', 'admin', '1558886002');
 INSERT INTO `sort` VALUES ('5', '武林外传', 'admin', '1558886126');
 INSERT INTO `sort` VALUES ('8', '我的兄弟叫顺溜', 'admin', '1558886308');
+INSERT INTO `sort` VALUES ('9', '2', 'admin', '1564647684');
 
 -- ----------------------------
 -- Table structure for system
@@ -195,7 +235,7 @@ CREATE TABLE `system` (
 -- ----------------------------
 -- Records of system
 -- ----------------------------
-INSERT INTO `system` VALUES ('1', '接单企业站，cms网站，后台管理系统', '接单企业站，cms网站，后台管理系统', '接单企业站，cms网站，后台管理系统\n微信：wxinguojing\nQQ：994743720', '接单企业站，cms网站，后台管理系统', '接单企业站，cms网站，后台管理系统\n微信：wxinguojing\nQQ：994743720', '接单企业站，cms网站，后台管理系统', '接单企业站，cms网站，后台管理系统\n微信：wxinguojing\nQQ：994743720', '1559098673', 'admin');
+INSERT INTO `system` VALUES ('1', '接单企业站，cms网站，后台管理系统，小程序，github', '接单企业站，cms网站，后台管理系统，小程序，github', '接单企业站，cms网站，后台管理系统，小程序，github\n微信：wxinguojing\nQQ：994743720', '接单企业站，cms网站，后台管理系统', '接单企业站，cms网站，后台管理系统，小程序，github\n微信：wxinguojing\nQQ：994743720', '接单企业站，cms网站，后台管理系统，小程序，github', '接单企业站，cms网站，后台管理系统，小程序，github\n微信：wxinguojing\nQQ：994743720', '1565061037', 'admin');
 
 -- ----------------------------
 -- Table structure for test
@@ -237,8 +277,6 @@ CREATE TABLE `user` (
 INSERT INTO `user` VALUES ('9', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '244103592@qq.con', '15156932893', '1557048258');
 INSERT INTO `user` VALUES ('17', 'success', 'e10adc3949ba59abbe56e057f20f883e', '123213@qq.com', '12322221111', '1557026361');
 INSERT INTO `user` VALUES ('10', 'admins', 'e10adc3949ba59abbe56e057f20f883e', '123123@qq.com', '12322221111', '1557109265');
-INSERT INTO `user` VALUES ('21', 'phpstudy', 'e10adc3949ba59abbe56e057f20f883e', '123@qq.com', '12122229999', '1557027138');
-INSERT INTO `user` VALUES ('22', '成功添加', 'e10adc3949ba59abbe56e057f20f883e', '1213@qq.com', '12322221111', '1557027236');
 INSERT INTO `user` VALUES ('23', 'today', 'e10adc3949ba59abbe56e057f20f883e', '123@qq.com', '12322224444', '1557027331');
 INSERT INTO `user` VALUES ('24', 'dumptest', 'e10adc3949ba59abbe56e057f20f883e', '12312312@qq.com', '12311112222', '1557027483');
 INSERT INTO `user` VALUES ('25', 'doadd', 'e10adc3949ba59abbe56e057f20f883e', '123123@qq.com', '12322221111', '1557027882');

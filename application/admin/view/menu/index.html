@@ -19,19 +19,18 @@
 	</style>
 </head>
 <body style="padding:10px 0px;">
-	<input type="hidden" id="pid" value="">
+	<input type="hidden" id="pid" value="{$pid}">
 	<div class="header">
-		<span class="layui-btn layui-btn-sm">菜单列表</span>
+		<span class="layui-btn layui-btn-sm" onclick="menu()">菜单列表</span>
 		<button class="layui-btn layui-btn-sm" onclick="add()">添加</button>
 		<div></div>
 	</div>
-	<button class="layui-btn layui-btn-primary layui-btn-sm" style="float: right;margin-top: 5px;margin-bottom: 5px;" onclick="backs()">返回上级菜单</button>
 	<table class="layui-table">
 		<thead>
 			<tr>
 				<th>ID</th>
 				<th>排序</th>
-				<th>菜单名称</th>
+				<th>菜单名称</th>		
 				<th>控制器</th>
 				<th>方法</th>
 				<th>是否隐藏(0显示;1隐藏)</th>
@@ -50,9 +49,9 @@
 				<td>{$vo.ishidden==1?'隐藏':'显示'}</td>
 				<td>{$vo.status==1?'禁用':'正常'}</td>
 				<td>
-					<button class="layui-btn layui-btn-xs" onclick="childs()">子菜单</button>
-					<button class="layui-btn layui-btn-warm layui-btn-xs" onclick="add()">编辑</button>
-					<button class="layui-btn layui-btn-danger layui-btn-xs" onclick="del()">删除</button>
+					<button class="layui-btn layui-btn-xs" onclick="childs({$vo['menu_id']})">子菜单</button>
+					<button class="layui-btn layui-btn-warm layui-btn-xs" onclick="add({$vo['menu_id']})">编辑</button>
+					<button class="layui-btn layui-btn-danger layui-btn-xs" onclick="del({$vo['menu_id']})">删除</button>
 				</td>
 			</tr>
 			{/volist}
@@ -73,8 +72,8 @@
 			type:2,
 			title:mid>0?'编辑菜单':'添加菜单',
 			shade:0.3,
-			area:['440px','490px'],
-			content:'/admin.php/menu/add?mid='+mid+'&pid='+pid
+			area:['500px','600px'],
+			content:'/admin.php/menu/add?mid=' + mid + '&pid=' + pid
 		});
 	}
 
@@ -95,13 +94,18 @@
 		});
 	}
 
-	// 子菜单
+	// childs
 	function childs(mid){
-		window.location.href = '?pid='+mid;
+		window.location.href = '?pid=' + mid
 	}
 
-	// 返回上级菜单
+	// backs
 	function backs(pid){
-		window.location.href = '?pid='+pid;
+		window.location.href = '?pid=' + pid
+	}
+
+	// menu
+	function menu(){
+		window.location.href = '/admin.php/Menu/index'
 	}
 </script>

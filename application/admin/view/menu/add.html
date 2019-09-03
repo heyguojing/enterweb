@@ -14,14 +14,21 @@
 </head>
 <body style="padding:10px 0px;">
 	<form class="layui-form">
-        <input type="hidden" name="pid" value="22">
+		<input type="hidden" name="pid" value="{$parent_menu.menu_id}">
+		<?php if($parent_menu) {?>
+		<div class="layui-form-item">
+			<label class="layui-form-label">上级菜单</label>
+			<div class="layui-input-inline">
+				<input type="text" class="layui-input" name="title" value="{$parent_menu.title}" disabled = "true">
+			</div>
+		</div>
+		<?php }?>
 		<div class="layui-form-item">
 			<label class="layui-form-label">菜单名称</label>
 			<div class="layui-input-inline">
 				<input type="text" class="layui-input" name="title">
 			</div>
 		</div>
-
 		<div class="layui-form-item">
 			<label class="layui-form-label">排序</label>
 			<div class="layui-input-inline">
@@ -46,8 +53,8 @@
 		<div class="layui-form-item">
 			<label class="layui-form-label">状态</label>
 			<div class="layui-input-inline">
-                <input type="checkbox" name="ishidden" lay-skin="primary" title="是否隐藏" value="0" class="layui-input-block">
-                <input type="checkbox" name="status" lay-skin="primary" title="是否禁用" value="0" class="layui-input-block">
+                <input type="checkbox" name="ishidden" lay-skin="primary" title="是否隐藏" class="layui-input-block">
+                <input type="checkbox" name="status" lay-skin="primary" title="是否禁用" class="layui-input-block">
 			</div>
         </div>
         
@@ -67,6 +74,7 @@
 	});
 
 	function save(){
+		var pid = parseInt($('input[name="pid"]').val());
         var title = $.trim($("input[name='title']").val());
         var controller = $.trim($("input[name='controller']").val());
         var method = $.trim($("input[name='method']").val());
@@ -88,7 +96,15 @@
             type:'post',
             url:'{:url(\'Menu/save\')}',
             dataType:'json',
-            data:$('form').serialize(),
+            data:{
+				'pid':pid,
+				'title':title,
+				'controller':controller,
+				'method':method,
+				'ord':ord,
+				'ishidden':$("input[name='ishidden']"),
+				'status':$("$input[name='status']")
+			},
             success:function(res){
                 console.log(res);
                 if(res.code == 1){
