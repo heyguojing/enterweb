@@ -15,14 +15,16 @@ class Menu extends Common
         if($pid){
             $where['pid'] = $pid;
         }else{
-            $where = true;
+            $where['pid'] = true;
         }
         // 查询出菜单列表
         $list = MenuModel::where($where)->order('menu_id','asc')->all();
         $list['pid'] = $pid;
         // 子菜单
         if($pid > 0){
-            $parent = MenuModel::where('menu_id','pid')->order('menu_id','asc')->select();
+            $parent = MenuModel::where(array('menu_id'=>$pid))->order('menu_id','asc')->find();
+            $backId = $parent['pid'];
+            $this->view->assign('backId',$backId);
         }
         $this->view->assign('pid',$pid);
         $this->view->assign('list',$list);
@@ -42,20 +44,32 @@ class Menu extends Common
             $parent_menu = $v;
         }
         
+        $this->assign('pid',$pid);
         $this->assign('parent_menu',$parent_menu);
         return $this->fetch();
     }
-    // 保存菜单
+    // 保存菜单background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+
     public function save()
     {   
+        $pid = (int)input('post.pid');
         $data['pid'] = input('post.pid');
         $data['title'] = input('post.title');
         $data['controller'] = trim(input('post.controller'));
         $data['method'] = trim(input('post.method'));
         $data['ord'] = (int)input('post.ord');
         $data['pid'] = (int)input('post.pid');
-        $data['ishidden'] = (int)input('post.ishidden');
-        $data['status'] = (int)input('post.status');
+
+        if(input('post.ishidden') == 'on'){
+            $data['ishidden'] = 1;
+        }else{
+            $data['ishidden'] = 0;
+        }
+        if(input('post.status') == 'on'){
+            $data['status'] = 1;
+        }else{
+            $data['status'] = 0;
+        }
 
         if($data['title'] == ''){
             return json_encode(array('code'=>1,'msg'=>'菜单名称不能为空'));

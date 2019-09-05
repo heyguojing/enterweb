@@ -14,12 +14,13 @@
 </head>
 <body style="padding:10px 0px;">
 	<form class="layui-form">
+		
 		<input type="hidden" name="pid" value="{$parent_menu.menu_id}">
-		<?php if($parent_menu) {?>
+		<?php if($pid) {?>
 		<div class="layui-form-item">
 			<label class="layui-form-label">上级菜单</label>
 			<div class="layui-input-inline">
-				<input type="text" class="layui-input" name="title" value="{$parent_menu.title}" disabled = "true">
+				<input type="text" class="layui-input" name="pid" value="{$parent_menu.title}" disabled = "true">
 			</div>
 		</div>
 		<?php }?>
@@ -96,15 +97,7 @@
             type:'post',
             url:'{:url(\'Menu/save\')}',
             dataType:'json',
-            data:{
-				'pid':pid,
-				'title':title,
-				'controller':controller,
-				'method':method,
-				'ord':ord,
-				'ishidden':$("input[name='ishidden']"),
-				'status':$("$input[name='status']")
-			},
+            data:$('form').serialize(),
             success:function(res){
                 console.log(res);
                 if(res.code == 1){

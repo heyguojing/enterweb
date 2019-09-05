@@ -16,6 +16,7 @@
 		.header span{background: #009688;margin-left: 10px;color: #ffffff;margin-top: -5px;}
 		.header button{float: right;margin-top: -5px;}
 		.header div{border-bottom: solid 2px #009688;margin-top: 8px;}
+		.backs{margin: 5px 0;float: right;}
 	</style>
 </head>
 <body style="padding:10px 0px;">
@@ -25,11 +26,16 @@
 		<button class="layui-btn layui-btn-sm" onclick="add()">添加</button>
 		<div></div>
 	</div>
+	<?php if($pid > 0){?>
+	<input type="button" class="layui-btn layui-btn-sm backs" value="返回上级菜单" onclick="backs({$backId})">
+	<?php }?>
 	<table class="layui-table">
 		<thead>
 			<tr>
 				<th>ID</th>
 				<th>排序</th>
+				<th>menu_id</th>
+				<th>pid</th>
 				<th>菜单名称</th>		
 				<th>控制器</th>
 				<th>方法</th>
@@ -43,6 +49,8 @@
 			<tr>
 				<td>{$vo.menu_id}</td>
 				<td>{$vo.ord}</td>
+				<td>{$vo.menu_id}</td>
+				<td>{$vo.pid}</td>
 				<td>{$vo.title}</td>
 				<td>{$vo.controller}</td>
 				<td>{$vo.method}</td>
@@ -50,7 +58,7 @@
 				<td>{$vo.status==1?'禁用':'正常'}</td>
 				<td>
 					<button class="layui-btn layui-btn-xs" onclick="childs({$vo['menu_id']})">子菜单</button>
-					<button class="layui-btn layui-btn-warm layui-btn-xs" onclick="add({$vo['menu_id']})">编辑</button>
+					<button class="layui-btn layui-btn-warm layui-btn-xs" onclick="edit({$vo['menu_id']})">编辑</button>
 					<button class="layui-btn layui-btn-danger layui-btn-xs" onclick="del({$vo['menu_id']})">删除</button>
 				</td>
 			</tr>
