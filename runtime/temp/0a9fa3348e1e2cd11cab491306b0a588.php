@@ -1,4 +1,4 @@
-<?php /*a:3:{s:60:"C:\wamp\www\enterweb\application\admin\view\index\index.html";i:1559093563;s:60:"C:\wamp\www\enterweb\application\admin\view\public\head.html";i:1559267158;s:60:"C:\wamp\www\enterweb\application\admin\view\public\left.html";i:1565771228;}*/ ?>
+<?php /*a:3:{s:60:"C:\wamp\www\enterweb\application\admin\view\index\index.html";i:1567737632;s:60:"C:\wamp\www\enterweb\application\admin\view\public\head.html";i:1559267158;s:60:"C:\wamp\www\enterweb\application\admin\view\public\left.html";i:1565771228;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,7 +6,6 @@
 	<title>企业网站后台管理系统</title>
 	<meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />

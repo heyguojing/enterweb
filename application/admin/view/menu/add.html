@@ -27,35 +27,35 @@
 		<div class="layui-form-item">
 			<label class="layui-form-label">菜单名称</label>
 			<div class="layui-input-inline">
-				<input type="text" class="layui-input" name="title">
+				<input type="text" class="layui-input" name="title" value="{$edit.title}">
 			</div>
 		</div>
 		<div class="layui-form-item">
 			<label class="layui-form-label">排序</label>
 			<div class="layui-input-inline">
-                <input type="text" class="layui-input" name="ord">
+                <input type="text" class="layui-input" name="ord" value="{$edit.ord}">
 			</div>
 		</div>
 
 		<div class="layui-form-item">
 			<label class="layui-form-label">控制器</label>
 			<div class="layui-input-inline">
-				<input type="text" class="layui-input" name="controller">
+				<input type="text" class="layui-input" name="controller" value="{$edit.controller}">
 			</div>
 		</div>
 
 		<div class="layui-form-item">
 			<label class="layui-form-label">方法</label>
 			<div class="layui-input-inline">
-				<input type="text" class="layui-input" name="method">
+				<input type="text" class="layui-input" name="method" value="{$edit.controller}">
 			</div>
 		</div>
 
 		<div class="layui-form-item">
 			<label class="layui-form-label">状态</label>
 			<div class="layui-input-inline">
-                <input type="checkbox" name="ishidden" lay-skin="primary" title="是否隐藏" class="layui-input-block">
-                <input type="checkbox" name="status" lay-skin="primary" title="是否禁用" class="layui-input-block">
+                <input type="checkbox" name="ishidden" lay-skin="primary" title="是否隐藏" class="layui-input-block" value="{$edit.ishidden}">
+                <input type="checkbox" name="status" lay-skin="primary" title="是否禁用" class="layui-input-block" value="{$edit.status}">
 			</div>
         </div>
         
