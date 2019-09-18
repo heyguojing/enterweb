@@ -38,7 +38,7 @@ class Menu extends Common
         if($pid > 0){
             $where['menu_id'] = $pid;
         }else{
-            $where = 0;
+            $where['pid'] = 0;
         }
         $parent_menu = MenuModel::where($where)->order('ord','asc')->select();
         foreach($parent_menu as $v){

@@ -1,4 +1,4 @@
-<?php /*a:1:{s:63:"C:\wamp\www\enterweb\application\admin\view\carousel\index.html";i:1559664637;}*/ ?>
+<?php /*a:1:{s:63:"C:\wamp\www\enterweb\application\admin\view\carousel\index.html";i:1568257400;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -48,6 +48,7 @@
                     <th width="200">管理员</th>
                     <th width="200">发布时间</th>
                     <th width="200">操作</th>
+                </tr>
             </thead>
             <tbody>
                 <?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$datav): $mod = ($i % 2 );++$i;?>

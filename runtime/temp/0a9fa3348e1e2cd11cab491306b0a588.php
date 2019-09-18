@@ -1,4 +1,4 @@
-<?php /*a:3:{s:60:"C:\wamp\www\enterweb\application\admin\view\index\index.html";i:1567737632;s:60:"C:\wamp\www\enterweb\application\admin\view\public\head.html";i:1559267158;s:60:"C:\wamp\www\enterweb\application\admin\view\public\left.html";i:1565771228;}*/ ?>
+<?php /*a:3:{s:60:"C:\wamp\www\enterweb\application\admin\view\index\index.html";i:1567737632;s:60:"C:\wamp\www\enterweb\application\admin\view\public\head.html";i:1559267158;s:60:"C:\wamp\www\enterweb\application\admin\view\public\left.html";i:1568274016;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -160,6 +160,12 @@
                             <cite>菜单列表</cite>
                         </a>
                     </li>
+                    <li>
+                        <a _href="<?php echo url('Menu/Roles'); ?>">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>角色列表</cite>
+                        </a>
+                    </li>                    
                 </ul>
             </li>
         </ul>
