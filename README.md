@@ -73,12 +73,11 @@ www  WEB部署目录（或者子目录）
 ~~~
 
 ## heyguojing简介
-> 微信：wxinguojing  
+> 
 qq：994743720  
 邮箱：guo_ali@aliyun.com  
 欢迎大家**fork**或者**star**我的[github](https://github.com/heyguojing "github")
 
-### wechat [二维码清晰图](https://phpdecode.cn/uploads/img/wxguojing.jpg)
 ***
 ![wechat](https://phpdecode.cn/uploads/img/wxguojing.jpg "wechat")  
 ### 补充
