@@ -78,8 +78,6 @@ qq：994743720
 邮箱：guo_ali@aliyun.com  
 欢迎大家**fork**或者**star**我的[github](https://github.com/heyguojing "github")
 
-***
-![wechat](https://phpdecode.cn/uploads/img/wxguojing.jpg "wechat")  
 ### 补充
 ***
 ```
